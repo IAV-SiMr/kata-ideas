@@ -8,4 +8,4 @@ Eine Sammlung an Ideen für Coding Katas. Die Beispiele sind in verschiedene Sch
 
 ## [Schwer](Schwer.md)
 
-## [Sehr schwer](Sehr schwer.md)
+## [Sehr schwer](Sehr_schwer.md)
