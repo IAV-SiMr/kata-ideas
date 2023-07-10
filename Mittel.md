@@ -1,4 +1,4 @@
-# Ideen für Coding Katas
+# [Ideen für Coding Katas](README.md)
 
 ## Mittel
 
