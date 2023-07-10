@@ -169,8 +169,159 @@
 	- Die abgehakten Aufgabenliste kann beliebige Elemente enthalten.
 	- Die Funktion soll überprüfen, ob alle Aufgaben in der Liste abgehakt wurden und einen booleschen Wert 
 
+## Mittel
 
+1. **Primzahlen bis zur Grenze**
+   - Die Funktion erhält eine positive ganze Zahl als Eingabe.
+   - Die Funktion gibt eine Liste aller Primzahlen bis zur gegebenen Grenze zurück.
+   - Die Funktion gibt eine leere Liste zurück, wenn die Eingabe kleiner als 2 ist.
+   - Die Funktion ignoriert negative Eingaben.
 
+2. **Bubble Sort**
+   - Die Funktion erhält eine Liste von Zahlen als Eingabe.
+   - Die Funktion gibt eine sortierte Liste in aufsteigender Reihenfolge zurück.
+   - Die Funktion behält die Reihenfolge der Elemente bei, die denselben Wert haben.
+   - Die Funktion gibt eine leere Liste zurück, wenn die Eingabeliste leer ist.
+
+3. **Anagramm-Gruppen**
+   - Die Funktion erhält eine Liste von Wörtern als Eingabe.
+   - Die Funktion gibt eine Liste von Anagramm-Gruppen zurück.
+   - Jede Anagramm-Gruppe enthält Wörter, die Anagramme voneinander sind.
+   - Die Funktion gibt eine leere Liste zurück, wenn die Eingabeliste leer ist.
+
+4. **Primfaktorzerlegung**
+   - Die Funktion erhält eine positive ganze Zahl als Eingabe.
+   - Die Funktion gibt eine Liste von Primfaktoren der gegebenen Zahl zurück.
+   - Die Liste enthält die Primzahlen, die die gegebene Zahl faktorisieren.
+   - Die Funktion gibt eine leere Liste zurück, wenn die Eingabe kleiner als 2 ist.
+
+5. **Matrix-Operationen**
+   - Die Funktion erhält zwei Matrizen als Eingabe.
+   - Die Funktion gibt die Summe der beiden Matrizen zurück.
+   - Die Funktion wirft einen Fehler, wenn die beiden Matrizen nicht kompatibel sind.
+   - Die Funktion gibt eine leere Matrix zurück, wenn beide Matrizen leer sind.
+
+6. **Höchstes Produkt**
+   - Die Funktion erhält eine Liste von Zahlen als Eingabe.
+   - Die Funktion gibt das höchste Produkt von drei Zahlen in der Liste zurück.
+   - Die Funktion gibt `null` zurück, wenn die Liste weniger als drei Elemente enthält.
+   - Die Funktion ignoriert Nicht-Zahlen-Elemente in der Liste.
+
+7. **Mittleres Element**
+   - Die Funktion erhält eine Liste von Zahlen als Eingabe.
+   - Die Funktion gibt das mittlere Element in der sortierten Liste zurück.
+   - Die Funktion gibt `null` zurück, wenn die Liste leer ist.
+   - Die Funktion berücksichtigt die Größe der Liste und gibt das mittlere Element oder den Durchschnitt der beiden mittleren Elemente zurück, wenn die Liste eine gerade Anzahl von Elementen hat.
+
+8. **Wort zählen**
+   - Die Funktion erhält einen Text als Eingabe.
+   - Die Funktion gibt die Anzahl der Wörter im Text zurück.
+   - Wörter sind durch Leerzeichen oder Satzzeichen getrennt.
+   - Die Funktion gibt 0 zurück, wenn der Text keine Wörter enthält.
+
+9. **Häufigstes Element**
+   - Die Funktion erhält eine Liste von Elementen als Eingabe.
+   - Die Funktion gibt das häufigste Element in der Liste zurück.
+   - Die Funktion gibt `null` zurück, wenn die Liste leer ist.
+   - Bei mehreren Elementen mit der gleichen Häufigkeit gibt die Funktion dasjenige zurück, das zuerst in der Liste auftritt.
+
+10. **String-Kompression**
+    - Die Funktion erhält einen String als Eingabe.
+    - Die Funktion gibt den komprimierten String zurück.
+    - Der komprimierte String enthält Buchstaben gefolgt von der Anzahl ihres Vorkommens.
+    - Die Funktion gibt den ursprünglichen String zurück, wenn der komprimierte String nicht kürzer ist.
+
+11. **Binäre Suche**
+    - Die Funktion erhält eine sortierte Liste von Zahlen und ein Ziel als Eingabe.
+    - Die Funktion gibt den Index des Ziels in der Liste zurück.
+    - Die Funktion gibt `-1` zurück, wenn das Ziel nicht in der Liste vorhanden ist.
+    - Die Funktion verwendet den binären Suchalgorithmus zur Suche.
+
+12. **Subarray-Summe**
+    - Die Funktion erhält eine Liste von Zahlen und ein Ziel als Eingabe.
+    - Die Funktion gibt `true` zurück, wenn es ein Teilarray in der Liste gibt, dessen Summe dem Ziel entspricht.
+    - Die Funktion gibt `false` zurück, wenn kein solches Teilarray existiert.
+    - Das Teilarray muss mindestens zwei aufeinanderfolgende Elemente enthalten.
+
+13. **Ungleiches Paar**
+    - Die Funktion erhält eine Liste von Zahlen als Eingabe.
+    - Die Funktion gibt ein ungleiches Paar von Zahlen zurück.
+    - Das ungleiche Paar besteht aus zwei Zahlen in der Liste, die sich in ihrem Wert unterscheiden.
+    - Die Funktion gibt `[null, null]` zurück, wenn kein ungleiches Paar gefunden wurde.
+
+14. **Gültige Klammersequenz**
+    - Die Funktion erhält eine Zeichenkette, die eine Klammersequenz repräsentiert, als Eingabe.
+    - Die Funktion gibt `true` zurück, wenn die Klammersequenz gültig ist.
+    - Die Funktion gibt `false` zurück, wenn die Klammersequenz ungültig ist.
+    - Die Klammersequenz gilt als gültig, wenn alle öffnenden und schließenden Klammern korrekt geschachtelt sind.
+
+15. **Kleinstes fehlendes positive**
+    - Die Funktion erhält eine Liste von Zahlen als Eingabe.
+    - Die Funktion gibt das kleinste fehlende positive ganze Zahl zurück.
+    - Das fehlende positive ganze Zahl ist größer als 0 und existiert nicht in der Liste.
+    - Die Funktion gibt 1 zurück, wenn die Liste leer ist oder kein positives ganzes Zahl fehlt.
+
+## Schwer
+
+1. **Kürzester Pfad in einem Graphen**
+   - Die Funktion erhält einen gerichteten gewichteten Graphen, einen Startknoten und einen Zielknoten als Eingabe.
+   - Die Funktion gibt den kürzesten Pfad vom Startknoten zum Zielknoten zurück.
+   - Die Funktion verwendet den Dijkstra-Algorithmus zur Berechnung des kürzesten Pfads.
+   - Die Funktion gibt `null` zurück, wenn kein Pfad vom Startknoten zum Zielknoten existiert.
+
+2. **Longest Common Subsequence**
+   - Die Funktion erhält zwei Strings als Eingabe.
+   - Die Funktion gibt die längste gemeinsame Teilsequenz der beiden Strings zurück.
+   - Die Funktion gibt eine leere Zeichenkette zurück, wenn keine gemeinsame Teilsequenz existiert.
+   - Die Funktion muss eine effiziente dynamische Programmierungslösung implementieren.
+
+3. **Sudoku-Solver**
+   - Die Funktion erhält ein unvollständiges Sudoku-Rätsel als Eingabe.
+   - Die Funktion gibt eine vollständig gelöste Version des Sudoku-Rätsels zurück.
+   - Die Funktion muss eine effiziente Backtracking-Algorithmuslösung implementieren.
+   - Die Funktion gibt `null` zurück, wenn das Sudoku-Rätsel keine gültige Lösung hat.
+
+4. **Knapsack Problem**
+   - Die Funktion erhält eine Liste von Gegenständen mit Gewichten und Werten sowie die maximale Kapazität eines Rucksacks als Eingabe.
+   - Die Funktion gibt den maximalen Wert zurück, den der Rucksack tragen kann.
+   - Die Funktion muss eine effiziente dynamische Programmierungslösung implementieren.
+   - Die Funktion gibt 0 zurück, wenn die Eingabeliste leer ist oder die maximale Kapazität 0 beträgt.
+
+5. **Längster Pfad in einem Graphen**
+   - Die Funktion erhält einen gerichteten gewichteten Graphen, einen Startknoten und einen Zielknoten als Eingabe.
+   - Die Funktion gibt den längsten Pfad vom Startknoten zum Zielknoten zurück.
+   - Die Funktion verwendet den Bellman-Ford-Algorithmus zur Berechnung des längsten Pfads.
+   - Die Funktion gibt `null` zurück, wenn kein Pfad vom Startknoten zum Zielknoten existiert.
+
+6. **Minimum Spanning Tree**
+   - Die Funktion erhält einen gewichteten Graphen als Eingabe.
+   - Die Funktion gibt den minimalen Spannbaum des Graphen zurück.
+   - Der minimale Spannbaum verbindet alle Knoten des Graphen mit minimalen Gesamtgewicht.
+   - Die Funktion muss den Kruskal-Algorithmus oder den Prim-Algorithmus implementieren.
+
+7. **Längster gemeinsamer Teilstring**
+   - Die Funktion erhält zwei Strings als Eingabe.
+   - Die Funktion gibt den längsten gemeinsamen Teilstring der beiden Strings zurück.
+   - Die Funktion gibt eine leere Zeichenkette zurück, wenn kein gemeinsamer Teilstring existiert.
+   - Die Funktion muss eine effiziente dynamische Programmierungslösung implementieren.
+
+8. **Traveling Salesman Problem**
+   - Die Funktion erhält einen vollständigen gewichteten Graphen als Eingabe.
+   - Die Funktion gibt den kürzesten Rundreisepfad zurück, der alle Knoten des Graphen besucht.
+   - Die Funktion muss eine effiziente dynamische Programmierungslösung implementieren.
+   - Die Funktion gibt `null` zurück, wenn der Graph nicht vollständig ist.
+
+9. **Kleinster gemeinsamer Teiler**
+   - Die Funktion erhält eine Liste von Zahlen als Eingabe.
+   - Die Funktion gibt den kleinsten gemeinsamen Teiler aller Zahlen in der Liste zurück.
+   - Die Funktion muss eine effiziente mathematische Lösung implementieren.
+   - Die Funktion gibt `null` zurück, wenn die Eingabeliste leer ist.
+
+10. **Regulärer Ausdruck Matching**
+    - Die Funktion erhält einen regulären Ausdruck und einen Eingabe-String als Eingabe.
+    - Die Funktion gibt `true` zurück, wenn der reguläre Ausdruck mit dem Eingabe-String übereinstimmt.
+    - Die Funktion gibt `false` zurück, wenn der reguläre Ausdruck nicht mit dem Eingabe-String übereinstimmt.
+    - Die Funktion muss den Thompson-Algorithmus oder den NFA-DFA-Algorithmus zur Implementierung des regulären Ausdruck-Matchings verwenden.
 
 
 
